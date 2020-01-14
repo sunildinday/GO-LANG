@@ -1,9 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
+	"rsc.io/quote"
+)
+
+//"hello world"
 func Hello() string {
-	return "im the best"
+	return quote.Hello()
 }
 func main() {
 	fmt.Println("this is the entry point of the code")
